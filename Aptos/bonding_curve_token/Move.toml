@@ -1,0 +1,14 @@
+[dev-addresses]
+
+[dev-dependencies]
+
+[package]
+name = "bonding_curve_token"
+version = "1.0.0"
+authors = ["Anidipta Pal"]
+
+[addresses]
+bonding_curve_token = "0x6027fdff4e28c1c8e5c707b898f4486c0d9c7f26332bf2773f3bb2eac5d16252"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
